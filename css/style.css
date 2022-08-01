@@ -52,13 +52,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    align-items: center;
+    align-items: stretch;
 }
 .nav__item {
-    margin: 0 15px 0 0;
-}
-.nav__item:last-child {
-    margin: 0;
+    margin: 18px 20px 0 0;
 }
 .nav__link {
     color: #fff;
@@ -73,15 +70,24 @@ body {
 .section {
     margin: 0 0 40px 0;
 }
-/*.section:after {*/
-/*    content: "";*/
-/*    width: 90%;*/
-/*    height: 2px;*/
-/*    background: #727272;*/
-/*    margin: 10px 0 0 0;*/
-/*}*/
-.subtitle {
+.section:after {
+    content: "";
+    width: 90%;
+    height: 2px;
+    background: #727272;
+    margin: 10px 0 0 0;
+}
+.section:last-child:after {
+    content: none;
+}
+
+.title {
     font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+.subtitle {
+    font-size: 1.3rem;
     font-weight: 700;
     margin: 0 0 20px 0;
 }
@@ -122,6 +128,10 @@ body {
     display: flex;
     flex-direction: row;
 }
+.skills {
+    display: flex;
+    flex-direction: column;
+}
 .tech-skills {}
 .soft-skills {
     margin: 0 0 0 70px;
@@ -135,13 +145,17 @@ body {
 }
 .main__education {
     display: flex;
+    flex-direction: column;
 }
 .education {}
 .small-text {
     font-size: 1rem;
-    margin: 5px 0 0 0;
 }
-.main__contacts {}
+.main__contacts {
+    display: flex;
+    flex-direction: column;
+}
+.contacts__wrapper {}
 .contacts {
     display: flex;
     flex-direction: row;
