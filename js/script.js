@@ -14,12 +14,9 @@ menuLinks.forEach(link => {
 
 function setScroll(e) {
     let elem = e.target;
-    console.log(elem);
     let elemId = elem.dataset.goto
     let gotoBlock = document.querySelector(`#${elemId}`);
-    console.log(gotoBlock);
     let gotoBlockValue = gotoBlock.getBoundingClientRect().top + scrollY - document.querySelector(".nav").offsetHeight;
-    console.log(gotoBlockValue);
 
     if(menuBurger.classList.contains("active")) {
         menuBurger.classList.remove("active");
