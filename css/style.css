@@ -216,6 +216,28 @@ body {
 .small-text {
     font-size: 1rem;
 }
+
+
+.main__work {
+    display: flex;
+    flex-direction: column;
+}
+.work {}
+.work__list {}
+.work__title {
+    font-weight: 700;
+}
+.work__text {
+    padding: 0 0 0 35px;
+    font-size: 1.2rem;
+    margin: 0 0 15px 0;
+}
+.work__item {}
+.work__item li {
+
+}
+
+
 .main__contacts {
     display: flex;
     flex-direction: column;
