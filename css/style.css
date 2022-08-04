@@ -1,6 +1,5 @@
 @import url(nullstyle.css);
 
-/*general style*/
 body {
     background: #dcdcdc;
     font-size: 1.3rem;
@@ -19,7 +18,6 @@ body {
     min-height: 100%;
     padding: 20px 40px;
 }
-
 
 /*media burger*/
 @media (min-width: 768px) {
@@ -106,7 +104,6 @@ body {
 }
 
 
-/*header style*/
 .header {
     position: relative;
 }
@@ -121,7 +118,6 @@ body {
 }
 
 
-/*main style*/
 .main {
     flex: 1 1 auto;
     padding: 80px 0 0 0;
@@ -141,6 +137,7 @@ body {
 .section:last-child:after {
     content: none;
 }
+
 .title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -151,14 +148,6 @@ body {
     font-weight: 700;
     margin: 0 0 20px 0;
 }
-.bold-text {
-    font-weight: 700;
-}
-.small-text {
-    font-size: 1rem;
-}
-
-/*about me style*/
 .main__about-me {
     display: flex;
     flex-direction: column;
@@ -195,8 +184,11 @@ body {
 .about-me__bottom p:last-child {
     margin: 0;
 }
+.bold-text {
+    font-weight: 700;
+}
 
-/*skills style*/
+
 .main__skills {
     display: flex;
     flex-direction: row;
@@ -217,39 +209,15 @@ body {
     padding: 0 0 0 25px;
     line-height: 1.8rem;
 }
-.skills__footer {
-    margin: 0 0 25px 0;
-}
-
-/*certificate style*/
-.skills__certificate,
-.certificate__body {
-    display: flex;
-    flex-direction: row;
-    margin: 0 -5px;
-}
-.certificate__front img,
-.certificate__back img {
-    max-width: 100%;
-    padding: 0 5px;
-}
-.certificate__front {
-    margin: 0 0 10px 0;
-}
-@media (max-width: 768px) {
-    .certificate__back {
-        display: none;
-    }
-}
+.skills__footer {}
 
 
-/*achievements style*/
 .achievements {}
 .achievements p {
     max-width: 750px;
 }
 
-/*education style*/
+
 .main__education {
     display: flex;
     flex-direction: column;
@@ -259,7 +227,7 @@ body {
     font-size: 1rem;
 }
 
-/*work style*/
+
 .main__work {
     display: flex;
     flex-direction: column;
@@ -279,7 +247,7 @@ body {
 
 }
 
-/*contacts style*/
+
 .main__contacts {
     display: flex;
     flex-direction: column;
@@ -324,7 +292,6 @@ body {
     height: 30px;
 }
 
-/*footer style*/
 .footer {
     background: #6495ED;
 }
@@ -332,7 +299,6 @@ body {
     color: #fff;
 }
 
-/*main media*/
 @media (max-width: 1200px) {
     .container {
         max-width: 970px;
