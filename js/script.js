@@ -69,4 +69,3 @@ function setScroll(e) {
 //     });
 //     menuBurger.classList.remove("active");
 // }
-
