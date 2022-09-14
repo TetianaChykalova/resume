@@ -34,6 +34,10 @@ const langArr = {
         "ua": "Чикалова Тетяна",
         "en": "Chykalova Tetiana",
     },
+    "main-cv": {
+        "ua": "Завантажити резюме",
+        "en": "Download CV",
+    },
     "main-about-text-top": {
         "ua": `Вітаю! Шукаю віддалену вакансію Front-end розробника або HTML-верстальника рівня <span class="bold-text">junior</span>.`,
         "en": `Hi! I am looking for a remote vacancy of a Front-end developer or HTML-developer at the <span class="bold-text">junior</span> level.`,
@@ -202,9 +206,9 @@ const langArr = {
 //    footer
     "footer-text": {
         "ua": `<a class="link__github lng-footer-link" target="_blank" href="https://github.com/TetianaChykalova/resume">Посилання</a> на код резюме на GitHub. <br>
-                Проект зроблено з використанням HTML5, CSS3, JavaScript.`,
+                Проект зроблено з використанням HTML5, CSS3, Bootstrap4, JavaScript.`,
         "en": `<a class="link__github lng-footer-link" target="_blank" href="https://github.com/TetianaChykalova/resume">Link</a> to the summary code on GitHub. <br>
-                The project is made using HTML5, CSS3, JavaScript.`,
+                The project is made using HTML5, CSS3, Bootstrap4, JavaScript.`,
     },
 }
 
