@@ -433,6 +433,9 @@ section:last-child:after {
     .certificate__back {
         display: none;
     }
+    .certificate__body:hover {
+        transform: none;
+    }
     .main__skills {
         flex-direction: column;
     }
