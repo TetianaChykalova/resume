@@ -42,9 +42,13 @@ const langArr = {
         "ua": `Вітаю! Шукаю віддалену вакансію Front-end розробника або HTML-верстальника рівня <span class="bold-text">junior</span>.`,
         "en": `Hi! I am looking for a remote vacancy of a Front-end developer or HTML-developer at the <span class="bold-text">junior</span> level.`,
     },
+    "main-about-text-center": {
+        "ua": "Я маю великий досвід роботи в команді (10 років). Зараз я працюю над своїм pet-проектом з використанням React. Маю досвід створення невеликого проекту с нуля до повної готовності - хостингу веб-сторінки за допомогою AWS.",
+        "en": "I have extensive experience working in a team (10 years). Now I am working on my pet-project using React. I have experience in creating a small project from scratch to full readiness - web page hosting using AWS.",
+    },
     "main-about-text-bottom": {
-        "ua": "Я маю великий досвід роботи в команді (майже половина життя). Наразі працюю над фріланс-проектом та власним сайтом-портфоліо. І маю величезне бажання вчитися і працювати на перемогу.",
-        "en": "I have a lot of experience working in a team (almost half of my life). I am currently working on a freelance project and my own portfolio site. And I have a great desire to learn and work for victory.",
+        "ua": "Я шукаю команду, де я зможу реалізувати свій потенціал. Наразі я вивчаю React та англійську. Я вмотивована до вивчення нових технологій та хочу працювати на перемогу. Я готова розглянути вакансії або стажування.",
+        "en": "I am looking for a team where I can realize my potential. I am currently learning React and English. I am motivated to learn new technologies and want to work for the victory. I am ready to consider vacancies or internships.",
     },
 //    skill
     "skills-title": {
@@ -64,12 +68,16 @@ const langArr = {
         "en": "CSS3",
     },
     "skills-js": {
-        "ua": "Java Script",
-        "en": "Java Script",
+        "ua": "Java Script (ES6)",
+        "en": "Java Script (ES6)",
     },
     "skills-bootstrap": {
         "ua": "Bootstrap4",
         "en": "Bootstrap4",
+    },
+    "skills-react": {
+        "ua": "React (базовий)",
+        "en": "React (basic)",
     },
     "skills-adaptive": {
         "ua": "Адаптивна верстка",
@@ -154,9 +162,33 @@ const langArr = {
         "ua": "Досвід роботи",
         "en": "Work experience",
     },
+    "work0-title": {
+        "ua": "Front-end developer (фріланс)",
+        "en": "Front-end developer (freelance)",
+    },
+    "work0-time": {
+        "ua": "08.2022 - до сьогодні",
+        "en": "08.2022 - until today",
+    },
+    "work0-task1": {
+        "ua": "Верстка статичних сайтів",
+        "en": "The layout of static sites",
+    },
+    "work0-task2": {
+        "ua": "Оптимізація сайту для пошукових систем",
+        "en": "Site optimization for search engines",
+    },
+    "work0-task3": {
+        "ua": "Оновлення макету на основі існуючого",
+        "en": "Updating the layout based on the existing one",
+    },
+    "work0-task4": {
+        "ua": "Адаптація макету під мобільні пристрої",
+        "en": "Adaptation of the layout for mobile devices",
+    },
     "work1-title": {
         "ua": "ЦДЮТ Шевченківського району м. Запоріжжя, культорганізатор",
-        "en": "Shevchenkivskiy District Youth Center of Zaporizhzhia, event-meneger",
+        "en": "Shevchenkivskiy District Youth Center of Zaporizhzhia, event-manager",
     },
     "work1-task1": {
         "ua": "Організація та проведення масових заходів",
