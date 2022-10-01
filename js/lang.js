@@ -163,7 +163,7 @@ const langArr = {
         "en": "Work experience",
     },
     "work0-title": {
-        "ua": "Front-end developer (фріланс)",
+        "ua": "Front-end розробник (freelance)",
         "en": "Front-end developer (freelance)",
     },
     "work0-time": {
