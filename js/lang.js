@@ -92,8 +92,8 @@ const langArr = {
         "en": "Figma",
     },
     "skills-english": {
-        "ua": "English - A1",
-        "en": "English - A1",
+        "ua": "English - A2",
+        "en": "English - A2",
     },
     "skills-soft": {
         "ua": "Soft skills",
