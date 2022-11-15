@@ -46,34 +46,18 @@ const langArr = {
         "ua": "Я маю великий досвід роботи в команді (10 років). Зараз я працюю над своїм pet-проектом з використанням React. Маю досвід створення невеликого проекту с нуля до повної готовності - хостингу веб-сторінки за допомогою AWS.",
         "en": "I have extensive experience working in a team (10 years). Now I am working on my pet-project using React. I have experience in creating a small project from scratch to full readiness - web page hosting using AWS.",
     },
+    "lng-main-about-text-commerce": {
+        "ua": `Я маю комерційний досвід з верстки сайтів. Готова фріланс-замовлення: <br> дивитись <a target="_blank" href="https://kluch.zp.ua/">тут</a>`,
+        "en": `I have commercial experience in the layout of static sites. Ready-made freelance order: <br> view <a target="_blank" href="https://kluch.zp.ua/">here</a>`
+    },
     "main-about-text-bottom": {
-        "ua": "Я шукаю команду, де я зможу реалізувати свій потенціал. Наразі я вивчаю React та англійську. Я вмотивована до вивчення нових технологій та хочу працювати на перемогу. Я готова розглянути вакансії або стажування.",
-        "en": "I am looking for a team where I can realize my potential. I am currently learning React and English. I am motivated to learn new technologies and want to work for the victory. I am ready to consider vacancies or internships.",
+        "ua": "Я шукаю команду, де я зможу реалізувати свій потенціал. Наразі я працюю над своїм пет-проектом з використанням react. Я вмотивована до вивчення нових технологій та хочу працювати на перемогу. Я готова розглянути вакансії або стажування.",
+        "en": "I am looking for a team where I can realize my potential. I am currently working on my pet project using react. I am motivated to learn new technologies and want to work for the victory. I am ready to consider vacancies or internships.",
     },
 //    skill
-    "skills-title": {
-        "ua": "Skills",
-        "en": "Skills",
-    },
-    "skills-tech": {
-        "ua": "Technical skills",
-        "en": "Technical skills",
-    },
-    "skills-html": {
-        "ua": "HTML5",
-        "en": "HTML5",
-    },
-    "skills-css": {
-        "ua": "CSS3",
-        "en": "CSS3",
-    },
-    "skills-js": {
-        "ua": "Java Script (ES6)",
-        "en": "Java Script (ES6)",
-    },
-    "skills-bootstrap": {
-        "ua": "Bootstrap4",
-        "en": "Bootstrap4",
+    "lng-skills-git-link": {
+        "ua": "(активне посилання)",
+        "en": "(active link)"
     },
     "skills-react": {
         "ua": "React (базовий)",
@@ -82,22 +66,6 @@ const langArr = {
     "skills-adaptive": {
         "ua": "Адаптивна верстка",
         "en": "Adaptive layout",
-    },
-    "skills-photoshop": {
-        "ua": "Photoshop",
-        "en": "Photoshop",
-    },
-    "skills-figma": {
-        "ua": "Figma",
-        "en": "Figma",
-    },
-    "skills-english": {
-        "ua": "English - A2",
-        "en": "English - A2",
-    },
-    "skills-soft": {
-        "ua": "Soft skills",
-        "en": "Soft skills",
     },
     "skills-team": {
         "ua": "Командна робота",
@@ -119,13 +87,9 @@ const langArr = {
         "ua": "Увага до деталей",
         "en": "Attention to detail",
     },
-    "skills-scrum": {
-        "ua": "SCRUM",
-        "en": "SCRUM",
-    },
     "skills-plan": {
-        "ua": "Знайома з методологією BEM та препроцесором SCSS. Наразі вивчаю React та англійську.",
-        "en": "Familiar with BEM methodology and SCSS preprocessor. I am currently learning React and English.",
+        "ua": "Я знайома з методологією BEM, препроцесорами SCSS та PUG, JQuery, WordPress(+Elementor), API, AWS.",
+        "en": "I am familiar with the BEM methodology, SCSS and PUG preprocessors, JQuery, WordPress(+Elementor), API, AWS.",
     },
     "skills-certificate": {
         "ua": "Сертифікати",

@@ -193,6 +193,18 @@ section:last-child:after {
 .certificate__body:hover .certificate__front {
     z-index: -2;
 }
+.section-title {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section-title img {
+    height: 100%;
+    padding: 0 0 0 5px;
+    margin: 0 0 20px 0;
+}
 .work__list {}
 .work__title {}
 .work__text p {
@@ -229,6 +241,13 @@ section:last-child:after {
 .gray-text {
     color: #5b5a5a;
     font-weight: 700;
+}
+.contacts__img {
+    height: 80px;
+    padding: 0 10px 10px 0;
+}
+.contacts__img img {
+    height: 100%;
 }
 .contacts__social {
     margin: 0 70px 0 0;
@@ -361,6 +380,23 @@ section:last-child:after {
 }
 
 /*ADAPTIVE*/
+@media (min-width: 768px) {
+    .about-me__top {
+        background: url(../img/progress.png) bottom right no-repeat;
+        background-size: 470px;
+    }
+    .main__skills {
+        background: url(../img/bg-skills.png) bottom right no-repeat;
+        background-size: 300px;
+    }
+}
+@media (min-width: 480px) {
+    .main__work {
+        background: url(../img/task-01.png) bottom right no-repeat;
+        background-size: 480px;
+    }
+}
+
 @media (max-width: 1200px) {
     .skills__certificate {
         padding-bottom: 400px;
