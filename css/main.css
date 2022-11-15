@@ -79,12 +79,12 @@ section:last-child:after {
     max-width: 350px;
     max-height: 350px;
     margin: 0 70px 0 0;
-    border: 4px solid #6495ED;
+    border: 5px solid #6495ED;
     border-radius: 10px;
 }
 .about-me__image img {
     width: 100%;
-    max-height: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -115,7 +115,7 @@ section:last-child:after {
     color: #FFF;
 }
 .about-me__bottom {
-    max-width: 750px;
+    max-width: 800px;
 }
 .about-me__bottom p {
     margin: 0 0 15px 0;
@@ -193,6 +193,18 @@ section:last-child:after {
 .certificate__body:hover .certificate__front {
     z-index: -2;
 }
+.section-title {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section-title img {
+    height: 100%;
+    padding: 0 0 0 5px;
+    margin: 0 0 20px 0;
+}
 .work__list {}
 .work__title {}
 .work__text p {
@@ -229,6 +241,13 @@ section:last-child:after {
 .gray-text {
     color: #5b5a5a;
     font-weight: 700;
+}
+.contacts__img {
+    height: 80px;
+    padding: 0 10px 10px 0;
+}
+.contacts__img img {
+    height: 100%;
 }
 .contacts__social {
     margin: 0 70px 0 0;
@@ -327,8 +346,8 @@ section:last-child:after {
     }
     .nav__list {
         position: fixed;
-        top: -100vh;
-        left: 0;
+        top: 0;
+        left: -100%;
         width: 100%;
         height: 100vh;
         z-index: 4;
@@ -339,8 +358,8 @@ section:last-child:after {
         transition: all 0.5s ease 0s;
         overflow: auto;
     }
-    .nav__list.active {
-        top: 0;
+    .active {
+        left: 0;
     }
     .nav__item {
         margin: 10px 0 0 0;
@@ -361,6 +380,23 @@ section:last-child:after {
 }
 
 /*ADAPTIVE*/
+@media (min-width: 768px) {
+    .about-me__top {
+        background: url(../img/progress.png) bottom right no-repeat;
+        background-size: 470px;
+    }
+    .main__skills {
+        background: url(../img/bg-skills.png) bottom right no-repeat;
+        background-size: 300px;
+    }
+}
+@media (min-width: 480px) {
+    .main__work {
+        background: url(../img/task-01.png) bottom right no-repeat;
+        background-size: 480px;
+    }
+}
+
 @media (max-width: 1200px) {
     .skills__certificate {
         padding-bottom: 400px;
@@ -432,6 +468,9 @@ section:last-child:after {
     }
     .certificate__back {
         display: none;
+    }
+    .certificate__body:hover {
+        transform: none;
     }
     .main__skills {
         flex-direction: column;
