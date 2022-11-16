@@ -46,7 +46,7 @@ const langArr = {
         "ua": "Я маю великий досвід роботи в команді (10 років). Зараз я працюю над своїм pet-проектом з використанням React. Маю досвід створення невеликого проекту с нуля до повної готовності - хостингу веб-сторінки за допомогою AWS.",
         "en": "I have extensive experience working in a team (10 years). Now I am working on my pet-project using React. I have experience in creating a small project from scratch to full readiness - web page hosting using AWS.",
     },
-    "lng-main-about-text-commerce": {
+    "main-about-text-commerce": {
         "ua": `Я маю комерційний досвід з верстки сайтів. Готова фріланс-замовлення: <br> дивитись <a target="_blank" href="https://kluch.zp.ua/">тут</a>`,
         "en": `I have commercial experience in the layout of static sites. Ready-made freelance order: <br> view <a target="_blank" href="https://kluch.zp.ua/">here</a>`
     },
@@ -55,9 +55,9 @@ const langArr = {
         "en": "I am looking for a team where I can realize my potential. I am currently working on my pet project using react. I am motivated to learn new technologies and want to work for the victory. I am ready to consider vacancies or internships.",
     },
 //    skill
-    "lng-skills-git-link": {
-        "ua": "(активне посилання)",
-        "en": "(active link)"
+    "skills-git": {
+        "ua": `Git <a target="_blank" href="https://github.com/TetianaChykalova">(активне посилання)</a>`,
+        "en": `Git <a target="_blank" href="https://github.com/TetianaChykalova">(active link)</a>`
     },
     "skills-react": {
         "ua": "React (базовий)",
