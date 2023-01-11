@@ -59,10 +59,6 @@ const langArr = {
         "ua": `Git <a target="_blank" href="https://github.com/TetianaChykalova">(активне посилання)</a>`,
         "en": `Git <a target="_blank" href="https://github.com/TetianaChykalova">(active link)</a>`
     },
-    "skills-react": {
-        "ua": "React (базовий)",
-        "en": "React (basic)",
-    },
     "skills-adaptive": {
         "ua": "Адаптивна верстка",
         "en": "Adaptive layout",
@@ -87,9 +83,13 @@ const langArr = {
         "ua": "Увага до деталей",
         "en": "Attention to detail",
     },
-    "skills-plan": {
-        "ua": "Я знайома з методологією BEM, препроцесорами SCSS та PUG, JQuery, WordPress(+Elementor), API, AWS.",
-        "en": "I am familiar with the BEM methodology, SCSS and PUG preprocessors, JQuery, WordPress(+Elementor), API, AWS.",
+    "skills-can": {
+        "ua": "Я можу написати нескладний додаток на React. Я вмію використовувати API запити (get, post) і підключати базу даних (firebase) до React.",
+        "en": "I can write a simple react application. I can use the API (get, post), and connect the database (firebase) to React.",
+    },
+    "skills-english": {
+        "ua": "Я вмію читати документацію, у мене немає мовного бар'єру, але я довго думаю, перш ніж говорити. Вдосконалюю англійську з репетитором.",
+        "en": "I can read the documentation, I don't have a language barrier, but I think for a long time before I speak, I improve it with the teacher",
     },
     "skills-certificate": {
         "ua": "Сертифікати",
@@ -112,11 +112,13 @@ const langArr = {
     "education-text": {
         "ua": `Національний педагогічний університет ім. М.П.Драгоманова (м. Київ)<br>
         Інженерно-педагогічний факультет,<br>
+        кафедра теорії та методики технологічної освіти, креслення та комп'ютерної графіки,<br>
         спеціальність “Середня освіта (трудове навчання та технології)<br>
         <br>
         <span class="small-text">*планований рік випуску - 2023</span>`,
         "en": `National Pedagogical University named M.P. Dragomanova (Kyiv) <br>
         Faculty of Engineering and Pedagogy<br>
+        department of theory and methods of technological education, drawing and computer graphics,<br>
         specialty ”Secondary education (labor training and technologies)<br>
         <br>
         <span class="small-text">*planned year of graduation - 2023</span>`,
